@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 20%;
+    height: 340px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    margin: 0;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 90%;
+    border: 1px solid #464646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -60px;
+}
+i{
+    font-size: 30px;
+    color: #ff8b00;
+}
+p{
+    color: #464646;
+    text-align: justify;
+    margin: 0 10px 0 10px;
+}
+button{
+    margin-top: 20px;
+    width: 70%;
+    height: 10%;
+
+
+}
