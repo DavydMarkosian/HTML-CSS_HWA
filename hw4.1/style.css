@@ -13,7 +13,7 @@ body{
     align-items: center;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: silver;
+    background-color: #df3b2e;
 }
 .block_A{
     height: 30vh;
