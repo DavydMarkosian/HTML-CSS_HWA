@@ -1,11 +1,11 @@
 body{
     margin: 0;
     overflow: hidden;
+    margin: 10px;
 }
 .wrap{
     width: 100%;
     max-height: 100vh;
-
 }
 .block_A, .block_B, .block_C, .block_D, .block_E, .block_F {
     display: flex;
@@ -13,7 +13,9 @@ body{
     align-items: center;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #df3b2e;
+    background-color: silver;
+    border-radius: 5px;
+
 }
 .block_A{
     height: 30vh;
@@ -28,6 +30,8 @@ body{
 .block_D{
     width: 33.333%;
     height: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 .block_E{
     width: 33.333%;
@@ -35,16 +39,19 @@ body{
 }
 .block_F{
     width: 30%;
-    height: 60vh;
+    margin-top: 2%;
 }
 .blocks_BCDEF{
     display: flex;
 }
 .blocks_BCDE{
     width: 70%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
 .blocks_CDE{
     display: flex;
     justify-content: space-between;
-    height: 50%;
+    height: 31vh;
+    margin-top: 2%;
 }

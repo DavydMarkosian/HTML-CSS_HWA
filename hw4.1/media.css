@@ -3,14 +3,14 @@
         flex-direction: column;
     }
     .blocks_CDE{
-        width: 100vw;
+        width: 143%;
         height: 100px;
     }
     .block_A{
         height: 100px;
     }
     .block_B{
-        width: 100vw;
+        width: 143%;
     }
     .block_F{
         width: 100%;
